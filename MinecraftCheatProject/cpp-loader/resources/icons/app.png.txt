@@ -1,0 +1,2 @@
+Placeholder for app icon (text-only to avoid binary in repository).
+TODO: generate icon at build/release time.

@@ -1,0 +1,2 @@
+Placeholder for GUI background texture (text-only to avoid binary in repository).
+TODO: provide PNG via release assets.

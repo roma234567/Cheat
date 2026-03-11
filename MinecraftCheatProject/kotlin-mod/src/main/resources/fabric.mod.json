@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "cheat",
+  "version": "${version}",
+  "name": "Minecraft Cheat",
+  "description": "Fabric Kotlin cheat mod with module manager and GUI.",
+  "authors": [
+    "yourname"
+  ],
+  "contact": {
+    "sources": "https://example.com"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.yourname.cheat.CheatMod"
+    ]
+  },
+  "mixins": [
+    "cheat.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric-language-kotlin": "*",
+    "minecraft": "1.21.4",
+    "fabric-api": "*"
+  }
+}
